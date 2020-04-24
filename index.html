@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Bootcamp Tests</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+  </head>
+
+  <body>
+    <div id="mocha"></div>
+
+    <script>
+      mocha.setup('bdd');
+      var assert = chai.assert;
+    </script>
+    <script src="./tests/greet.test.js" charset="utf-8"></script>
+    <script src="./tests/yearsAgo.tests.js" charset="utf-8"></script>
+    <script src="./tests/capetownRegNumber.test.js" charset="utf-8"></script>
+    <script src="./tests/countRegNumbers.test.js" charset="utf-8"></script>
+    <script src="./tests/gautengRegNumbers.test.js" charset="utf-8"></script>
+    <script src="./tests/getDay.test.js" charset="utf-8"></script>
+    <script src="./tests/isDay.test.js" charset="utf-8"></script>
+    <script src="./tests/isFrom.test.js" charset="utf-8"></script>
+    <script src="./tests/isFromBellville.test.js" charset="utf-8"></script>
+    <script src="./tests/isWeekday.test.js" charset="utf-8"></script>
+    <script src="./tests/limpopoReg.test.js" charset="utf-8"></script>
+    <script src="./tests/regCheck.test.js" charset="utf-8"></script>
+    <script src="./tests/sameWeekday.test.js" charset="utf-8"></script>
+    <script src="./tests/totalBillCost.test.js" charset="utf-8"></script>
+    <script src="./tests/yearsAgo.test.js" charset="utf-8"></script>
+
+    <!-- configure and run mocha -->
+    <script>
+      mocha.checkLeaks();
+      mocha.run();
+    </script>
+
+  </body>
+</html>
