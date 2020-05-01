@@ -8,7 +8,7 @@ function isFrom(registration, location){
 
 describe('isFrom function', function(){
 
-  it('should return all  registration numbers', function(){
+  it('should return all  registration numbers with locatoion', function(){
       assert.equal(false, isFrom('registration,location'));
   });
 

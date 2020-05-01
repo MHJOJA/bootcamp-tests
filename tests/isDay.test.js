@@ -4,6 +4,7 @@ function isDayName(day){
   }
    return false;
   }
+  
   describe('isDay function', function(){
 
     it('should return day of the week', function(){
