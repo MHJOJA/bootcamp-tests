@@ -5,8 +5,3 @@ function isFromBellville(registration){
     return false;
   }
   
-  
-  describe('isFromBellville function' , function(){
-      it('should return registrations starts (CY)' , function(){
-             });
-  });

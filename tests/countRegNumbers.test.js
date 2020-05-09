@@ -1,6 +1,10 @@
-const assert = require('assert');
-const countRegNumber = require('../functions/countRegNumber');
-
+function countRegNumber(num) {
+  console.log(num);
+   var isGood = num.split(",");
+   return isGood.length;
+ 
+ }
+ 
 describe('countRegNumbers function', function(){
 
   it('should return all  registration numbers', function(){
