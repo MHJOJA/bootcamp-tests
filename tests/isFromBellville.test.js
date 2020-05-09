@@ -8,5 +8,6 @@ function isFromBellville(registration){
 
 describe('isFromBellville function' , function(){
     it('should return registrations starts (CY)' , function(){
+      assert.equal(false, isFromBellville('CY 8785, CY'));
            });
 });
