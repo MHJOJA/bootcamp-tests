@@ -3,10 +3,10 @@
 describe('yearsAgo function', function(){
 
   it('should return the exact year ago', function(){
-      assert.equal(1, yearsAgo('year'));
+      assert.equal(23, yearsAgo('1997'));
   });
   it('should return the exact year ago', function(){
-    assert.equal(2, yearsAgo('1995'));
+    assert.equal(25, yearsAgo('1995'));
 });
 
 });

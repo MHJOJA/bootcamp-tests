@@ -6,7 +6,7 @@
     });
     
     it('should check  all registration numbers', function(){
-      assert.equal(false, regCheck('registration'));
+      assert.equal(false, regCheck('CY 45 548, CY'));
   });
 
 });

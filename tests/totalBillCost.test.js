@@ -27,7 +27,7 @@ describe('totalPhoneBill function', function(){
     assert.equal('R0.00', totalPhoneBill('value'));
   });
   it('should return the phone bill', function(){
-    assert.equal('R-0.00', totalPhoneBill('value'));
+    assert.equal('R0.00', totalPhoneBill('value'));
   });
 
 
