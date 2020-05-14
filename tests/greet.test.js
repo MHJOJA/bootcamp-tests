@@ -1,14 +1,10 @@
 
-var greet = function(name){
-  var say = "Hello, ";
-  var name = "Bob";
-  return (say + name);
-}
 
 describe('The greet function', function(){
 
-  it('should greet Bob correctly', function(){
+  it("Should greet Bob withh 'Hello, Bob' ", function(){
       assert.equal('Hello, Bob', greet('Bob'));
   });
-
+  it("Should greet Zola withh 'Hello, Zola' ", function(){
+    assert.equal('Hello, Zola', greet('Zola'));
 });

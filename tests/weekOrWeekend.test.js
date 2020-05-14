@@ -10,8 +10,13 @@ function weekOrWeekend(day){
 describe('isWeekOrWeekend function', function(){
 
     it('should return week or weekend', function(){
-      assert.equal('week', weekOrWeekend('day'));
+      assert.equal('week', weekOrWeekend('Tuesday'));
     });
+    
+    it('should return week or weekend', function(){
+        assert.equal('weekend', weekOrWeekend('Sunday'));
+      });
+    
   
   });
   

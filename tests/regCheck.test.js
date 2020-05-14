@@ -1,9 +1,12 @@
 
-const regCheck = require('../functions/regCheck');
   describe('regCheck function', function(){
 
     it('should return all  registration numbers', function(){
-        assert.equal(false, regCheck('registration'));
+        assert.equal(false, regCheck('CA 7854 145, CA'));
     });
+    
+    it('should check  all registration numbers', function(){
+      assert.equal(false, regCheck('registration'));
+  });
 
 });

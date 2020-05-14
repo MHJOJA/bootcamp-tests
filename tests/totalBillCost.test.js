@@ -23,8 +23,12 @@ function totalPhoneBill(value){
 
 describe('totalPhoneBill function', function(){
 
-  it('should return the day of the week', function(){
+  it('should return the total phone bill', function(){
     assert.equal('R0.00', totalPhoneBill('value'));
   });
+  it('should return the phone bill', function(){
+    assert.equal('R-0.00', totalPhoneBill('value'));
+  });
+
 
 });
