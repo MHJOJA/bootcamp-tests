@@ -4,6 +4,6 @@ function weekOrWeekend(day){
     if (!day.startsWith('S')){
         return 'week';
     }else {
-        return weekend;
+        return 'weekend';
     }
 }
