@@ -5,7 +5,7 @@ describe('isFromCapeTown function', function(){
     assert.equal(true, isFromCapeTown('CA 123 254, CA'));
   });
   it('should return all CA registration numbers', function(){
-    assert.equal(true, isFromCapeTown('CA 158 277, CA'));
+    assert.equal(false, isFromCapeTown('CJ 158 277, CJ'));
   });
 
 
