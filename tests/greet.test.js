@@ -1,6 +1,6 @@
 
 
-describe('greet function', function(){
+describe('The greet function', function(){
 
   it("Should greet Bob withh 'Hello, Bob' ", function(){
       assert.equal('Hello, Bob', greet('Bob'));
