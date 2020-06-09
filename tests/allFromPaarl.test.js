@@ -5,7 +5,7 @@ describe('allFromPaarl function' , function(){
       assert.equal(true, allFromPaarl('CL 8745, CL'));
            });
 
-    it('should return all registrations that starts (CL)' , function(){
-       assert.equal(true, allFromPaarl('CL 1254 81, cL'));
+    it('should fail if  registrations doesnt starts with (CL)' , function(){
+       assert.equal(true, allFromPaarl('CF 1254 81, cA'));
           });
 });
