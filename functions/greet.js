@@ -1,7 +1,7 @@
 
 var greet = function(name){
-    var say = "Hello ";
-    var name = "Bob";
-    return (say + "name");
+    var say = "Hello, ";
+
+    return (say + name);
   }
   
