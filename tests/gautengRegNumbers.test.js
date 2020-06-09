@@ -5,8 +5,8 @@ describe('isFromGauteng function', function(){
     assert.equal(true, isFromGauteng('HGF 582 GP,GP'));
   });
   
-  it('should fail if egistration numbers does not ending with GP', function(){
-    assert.equal(true, isFromGauteng('GHS 894 EC,ZOLA ZN'));
+  it('should fail if registration numbers does not end with GP', function(){
+    assert.equal(fail, isFromGauteng('GHS 894 EC,ZOLA ZN'));
   });
 
 });
